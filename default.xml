@@ -14,6 +14,10 @@
            review="gerrit.aospa.co"
            revision="quartz" />
 
+  <remote  name="fast"
+           fetch="https://github.com/FasterRom"
+           revision="quartz" />
+
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org" />
@@ -24,6 +28,9 @@
 
   <remote  name="github"
            fetch="https://github.com" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
 
   <remote  name="github-ssh"
            fetch="ssh://git@github.com" />
